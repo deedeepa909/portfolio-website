@@ -60,7 +60,6 @@ Become a highly skilled engineer capable of building scalable applications and s
 
 > I believe engineering is not just a degree;
 > it is a mindset for solving problems.
->>>>>>> b270572a6c30c320daeb2c002c18c39666e73c1d
 
 ---
 
@@ -89,7 +88,7 @@ Become a highly skilled engineer capable of building scalable applications and s
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_ACTUAL_GITHUB_USERNAME&theme=tokyonight&no-frame=true&row=1" alt="Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=deedeepa909&theme=tokyonight&no-frame=true&row=1" alt="Trophies"/>
 
 </div>
 
@@ -99,7 +98,7 @@ Become a highly skilled engineer capable of building scalable applications and s
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_ACTUAL_GITHUB_USERNAME&theme=tokyo-night" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=deedeepa909&theme=tokyo-night" width="100%"/>
 
 </div>
 
