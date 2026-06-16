@@ -2,7 +2,6 @@
 
 # 👩‍💻 Software Engineer in the Making
 
-<<<<<<< HEAD
 <video src="developer-avatar.mp4" width="350" autoplay loop muted playsinline></video>
 =======
 <img src="blob:https://gemini.google.com/5a015a07-5de1-499b-b9de-8db67f45c2fd" width="350"/>
