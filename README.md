@@ -2,7 +2,7 @@
 
 # 👩‍💻 Software Engineer in the Making
 
-<img src="YOUR_ANIMATED_DEVELOPER_IMAGE_LINK" width="350"/>
+<img src="blob:https://gemini.google.com/5a015a07-5de1-499b-b9de-8db67f45c2fd" width="350"/>
 
 ### 💡 Engineering Student | Future Software Developer | Problem Solver
 
@@ -14,7 +14,7 @@
 
 # 🌌 About Me
 
-<img align="right" width="300" src="YOUR_ANIMATED_DEVELOPER_IMAGE_LINK"/>
+<img align="right" width="300" src="blob:https://gemini.google.com/5a015a07-5de1-499b-b9de-8db67f45c2fd"/>
 
 🎓 First-Year Engineering Student
 
