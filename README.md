@@ -2,11 +2,14 @@
 
 # 👩‍💻 Software Engineer in the Making
 
-<<<<<<< HEAD
 <video src="developer-avatar.mp4" width="350" autoplay loop muted playsinline></video>
 =======
+<<<<<<< HEAD
 <img src="" width="350"/>
 >>>>>>> b270572a6c30c320daeb2c002c18c39666e73c1d
+=======
+<img src="blob:https://gemini.google.com/5a015a07-5de1-499b-b9de-8db67f45c2fd" width="500"/>
+>>>>>>> f36fd4baa0ea2767f701f95bbd172e8264845817
 
 ### 💡 Engineering Student | Future Full-Stack Developer | Problem Solver
 
@@ -18,7 +21,6 @@
 
 ## 🌌 About Me
 
-<<<<<<< HEAD
 <table>
   <tr>
     <td width="60%" valign="top">
@@ -41,7 +43,7 @@
     </td>
   </tr>
 </table>
-=======
+
 <img align="right" width="300" src="blob:https://gemini.google.com/5a015a07-5de1-499b-b9de-8db67f45c2fd"/>
 
 🎓 First-Year Engineering Student
@@ -63,7 +65,6 @@ Become a highly skilled engineer capable of building scalable applications and s
 
 > I believe engineering is not just a degree;
 > it is a mindset for solving problems.
->>>>>>> b270572a6c30c320daeb2c002c18c39666e73c1d
 
 ---
 
