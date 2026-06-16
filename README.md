@@ -2,7 +2,11 @@
 
 # 👩‍💻 Software Engineer in the Making
 
+<<<<<<< HEAD
 <video src="developer-avatar.mp4" width="350" autoplay loop muted playsinline></video>
+=======
+<img src="blob:https://gemini.google.com/5a015a07-5de1-499b-b9de-8db67f45c2fd" width="350"/>
+>>>>>>> b270572a6c30c320daeb2c002c18c39666e73c1d
 
 ### 💡 Engineering Student | Future Full-Stack Developer | Problem Solver
 
@@ -14,6 +18,7 @@
 
 ## 🌌 About Me
 
+<<<<<<< HEAD
 <table>
   <tr>
     <td width="60%" valign="top">
@@ -36,6 +41,29 @@
     </td>
   </tr>
 </table>
+=======
+<img align="right" width="300" src="blob:https://gemini.google.com/5a015a07-5de1-499b-b9de-8db67f45c2fd"/>
+
+🎓 First-Year Engineering Student
+
+💻 Passionate about Software Development
+
+🚀 Currently Learning:
+
+- Data Structures & Algorithms
+- Web Development
+- System Design Fundamentals
+- Git & Open Source
+
+🌱 Goal:
+
+Become a highly skilled engineer capable of building scalable applications and solving real-world problems.
+
+⚡ Fun Fact:
+
+> I believe engineering is not just a degree;
+> it is a mindset for solving problems.
+>>>>>>> b270572a6c30c320daeb2c002c18c39666e73c1d
 
 ---
 
