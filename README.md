@@ -5,7 +5,7 @@
 <<<<<<< HEAD
 <video src="developer-avatar.mp4" width="350" autoplay loop muted playsinline></video>
 =======
-<img src="blob:https://gemini.google.com/5a015a07-5de1-499b-b9de-8db67f45c2fd" width="350"/>
+<img src="" width="350"/>
 >>>>>>> b270572a6c30c320daeb2c002c18c39666e73c1d
 
 ### 💡 Engineering Student | Future Full-Stack Developer | Problem Solver
@@ -81,8 +81,8 @@ Become a highly skilled engineer capable of building scalable applications and s
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_ACTUAL_GITHUB_USERNAME&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_ACTUAL_GITHUB_USERNAME&theme=tokyonight" alt="GitHub Streak"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=deedeepa909&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
+<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=deedeepa909&theme=tokyonight" alt="GitHub Streak"/>
 
 </div>
 
@@ -92,7 +92,7 @@ Become a highly skilled engineer capable of building scalable applications and s
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_ACTUAL_GITHUB_USERNAME&theme=tokyonight&no-frame=true&row=1" alt="Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=deedeepa909&theme=tokyonight&no-frame=true&row=1" alt="Trophies"/>
 
 </div>
 
@@ -102,7 +102,7 @@ Become a highly skilled engineer capable of building scalable applications and s
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_ACTUAL_GITHUB_USERNAME&theme=tokyo-night" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=deedeepa909&theme=tokyo-night" width="100%"/>
 
 </div>
 
