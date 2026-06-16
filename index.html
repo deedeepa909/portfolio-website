@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <style>
+        /* Modern Dark Color Palette (Tokyo Night Inspired) */
+        :root {
+            --bg-color: #0a0e14;
+            --card-bg: #10141f;
+            --text-main: #c9d1d9;
+            --text-muted: #8b949e;
+            --accent-glow: #58a6ff;
+            --accent-purple: #bb9af7;
+            --border-color: #1f2433;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .portfolio-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Profile Header Section */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .avatar-container {
+            margin-bottom: 20px;
+        }
+
+        .avatar-video {
+            width: 320px;
+            height: 320px;
+            border-radius: 20px;
+            object-fit: cover;
+            border: 2px solid var(--border-color);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .typing-svg-container {
+            margin: 15px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: var(--border-color);
+            margin: 40px 0;
+        }
+
+        /* Two-Column Grid for "About Me" & Progress Tracker */
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        @media (min-width: 768px) {
+            .grid-layout {
+                grid-template-columns: 1.2fr 0.8fr;
+            }
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            color: #ffffff;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .about-card, .journey-card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        .about-card ul {
+            list-style-type: none;
+            margin-top: 15px;
+        }
+
+        .about-card li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .about-card li::before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: var(--accent-glow);
+        }
+
+        blockquote {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(88, 166, 255, 0.05);
+            border-left: 4px solid var(--accent-glow);
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+        }
+
+        /* Progress Bar Styles */
+        .progress-wrapper {
+            margin-top: 15px;
+        }
+
+        .skill-bar-container {
+            margin-bottom: 18px;
+        }
+
+        .skill-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .progress-bg {
+            background: #161b22;
+            width: 100%;
+            height: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, var(--accent-glow), var(--accent-purple));
+            height: 100%;
+            border-radius: 5px;
+        }
+
+        /* Center Grid Displays for Graphics */
+        .center-display {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .analytics-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            width: 100%;
+        }
+
+        .analytics-group img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="portfolio-container">
+
+        <!-- Header Section -->
+        <header>
+            <div class="avatar-container">
+                <!-- Plays your local MP4 file automatically -->
+                <video class="avatar-video" autoplay loop muted playsinline>
+                    <source src="developer-avatar.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h1>👩‍💻 Software Engineer in the Making</h1>
+            
+            <div class="typing-svg-container">
+                <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=25&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Engineering+Student;Full-Stack+Web+Development;Learning+DSA+%26+Problem+Solving;Building+Projects+with+Python+%26+React" alt="Typing Animation" />
+            </div>
+        </header>
+
+        <hr />
+
+        <!-- Split Grid Layout -->
+        <div class="grid-layout">
+            
+            <!-- About Me Card -->
+            <section class="about-card">
+                <h2>🌌 About Me</h2>
+                <p>🎓 <b>First-Year Engineering Student</b></p>
+                <p style="margin-top: 10px;">💻 Passionate about building robust, full-stack software development projects.</p>
+                
+                <ul>
+                    <li>Data Structures & Algorithms</li>
+                    <li>Full-Stack Web Development (Python, FastAPI, React)</li>
+                    <li>Database Management & Firebase Cloud Firestore</li>
+                    <li>Git & Open Source Collaboration</li>
+                </ul>
+
+                <p style="margin-top: 15px;">🌱 <b>Goal:</b> Become a highly skilled engineer capable of building scalable applications and solving real-world structural problems.</p>
+
+                <blockquote>
+                    <b>Fun Fact:</b> I believe engineering is not just a degree; it is a creative mindset for solving problems.
+                </blockquote>
+            </section>
+
+            <!-- Current Journey Progress Tracking -->
+            <section class="journey-card">
+                <h2>🚀 Engineering Journey</h2>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Learning & Progress Tracking:</p>
+                
+                <div class="progress-wrapper">
+                    <!-- DSA -->
+                    <div class="skill-bar-container">
+                        <div class="skill-info"><span>DSA</span><span>90%</span></div>
+                        <div class="progress-bg"><div class="progress-fill" style="width: 90%;"></div></div>
+                    </div>
+                    <!-- Python & FastAPI -->
+                    <div class="skill-bar-container">
+                        <div class="skill-info"><span>Python & FastAPI</span><span>80%</span></div>
+                        <div class="progress-bg"><div class="progress-fill" style="width: 80%;"></div></div>
+                    </div>
+                    <!-- React Frontend -->
+                    <div class="skill-bar-container">
+                        <div class="skill-info"><span>React Frontend</span><span>70%</span></div>
+                        <div class="progress-bg"><div class="progress-fill" style="width: 70%;"></div></div>
+                    </div>
+                    <!-- Git/GitHub -->
+                    <div class="skill-bar-container">
+                        <div class="skill-info"><span>Git / GitHub</span><span>80%</span></div>
+                        <div class="progress-bg"><div class="progress-fill" style="width: 80%;"></div></div>
+                    </div>
+                    <!-- System Design -->
+                    <div class="skill-bar-container">
+                        <div class="skill-info"><span>System Design</span><span>40%</span></div>
+                        <div class="progress-bg"><div class="progress-fill" style="width: 40%;"></div></div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <hr />
+
+        <!-- Tech Arsenal Section -->
+        <section class="center-display">
+            <h2>🛠️ Tech Arsenal</h2>
+            <img src="https://skillicons.dev/icons?i=python,fastapi,react,firebase,cpp,c,javascript,html,css,git,github,vscode,figma,mysql" alt="Tech Stack Badges" class="responsive-img" />
+        </section>
+
+        <hr />
+
+        <!-- GitHub Analytics Section -->
+        <!-- ⚠️ REMEMBER: Replace YOUR_ACTUAL_GITHUB_USERNAME inside the src URLs below with your real user handle -->
+        <section class="center-display">
+            <h2>📈 GitHub Analytics</h2>
+            <div class="analytics-group">
+                <img src="https://github-readme-stats.vercel.app/api?username=YOUR_ACTUAL_GITHUB_USERNAME&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_ACTUAL_GITHUB_USERNAME&theme=tokyonight" alt="GitHub Streak"/>
+            </div>
+        </section>
+
+        <hr />
+
+        <!-- Trophies Section -->
+        <section class="center-display">
+            <h2>🏆 GitHub Trophies</h2>
+            <img src="https://github-profile-trophy.vercel.app/?username=YOUR_ACTUAL_GITHUB_USERNAME&theme=tokyonight&no-frame=true&row=1" alt="Trophies" class="responsive-img"/>
+        </section>
+
+        <hr />
+
+        <!-- Contribution Activity Section -->
+        <section class="center-display" style="margin-bottom: 40px;">
+            <h2>📊 Contribution Activity</h2>
+            <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_ACTUAL_GITHUB_USERNAME&theme=tokyo-night" alt="Activity Graph" class="responsive-img"/>
+        </section>
+
+    </div>
+
+</body>
+</html>
