@@ -1,118 +1,26 @@
-<div align="center">
+# Deepa SK — Portfolio
 
-# 👩‍💻 Software Engineer in the Making
+## Run locally
+1. Keep `index.html` in a folder.
+2. Open `index.html` in a modern browser.
 
-<video src="developer-avatar.mp4" width="350" autoplay loop muted playsinline></video>
+## Profile picture
+Your supplied portrait is included at `assets/profile.png` and appears by default on the website.
 
-<img src="" width="350"/>
+To replace it for your own browser preview:
+1. Open the website and select **Add profile photo**.
+2. Choose your AI-generated portrait in PNG, JPG, or WebP format (up to 4 MB).
+3. The image preview is saved in that browser's local storage, so it remains visible on that same browser/device.
 
-<img src="blob:https://gemini.google.com/5a015a07-5de1-499b-b9de-8db67f45c2fd" width="500"/>
+### Important for publishing on GitHub Pages
+The upload control is a local preview/personalization feature; it does not upload a replacement photo to GitHub or make it visible to other visitors. The bundled `assets/profile.png` is published with the site and is visible to all visitors. To replace the public portrait:
+1. Create an `assets` folder in your repository.
+2. Add your chosen image as `assets/profile.jpg` (or another filename).
+3. In `index.html`, replace the placeholder profile block with an image element using `src="assets/profile.jpg"`, or ask for a version wired to your final image.
 
-### 💡 Engineering Student | Future Full-Stack Developer | Problem Solver
-
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=25&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Engineering+Student;Full-Stack+Web+Development;Learning+DSA+%26+Problem+Solving;Building+Projects+with+Python+%26+React" />
-
-</div>
-
----
-
-## 🌌 About Me
-
-<table>
-  <tr>
-    <td width="60%" valign="top">
-      <br />
-      🎓 <b>First-Year Engineering Student</b><br /><br />
-      💻 Passionate about building robust, full-stack software development projects.<br /><br />
-      🚀 <b>Currently Learning & Mastering:</b>
-      <ul>
-        <li>Data Structures & Algorithms</li>
-        <li>Full-Stack Web Development (Python, FastAPI, React)</li>
-        <li>Database Management & Firebase Cloud Firestore</li>
-        <li>Git & Open Source Collaboration</li>
-      </ul>
-      🌱 <b>Goal:</b> Become a highly skilled engineer capable of building scalable applications and solving real-world structural problems.<br /><br />
-      ⚡ <b>Fun Fact:</b> 
-      <blockquote>I believe engineering is not just a degree; it is a creative mindset for solving problems.</blockquote>
-    </td>
-    <td width="40%" align="center" valign="middle">
-      <img src="https://skillicons.dev/icons?i=py,react,fastapi,firebase" width="150px" alt="Core Tech Stack" />
-    </td>
-  </tr>
-</table>
-
-<img align="right" width="300" src="blob:https://gemini.google.com/5a015a07-5de1-499b-b9de-8db67f45c2fd"/>
-
-🎓 First-Year Engineering Student
-
-💻 Passionate about Software Development
-
-🚀 Currently Learning:
-
-- Data Structures & Algorithms
-- Web Development
-- System Design Fundamentals
-- Git & Open Source
-
-🌱 Goal:
-
-Become a highly skilled engineer capable of building scalable applications and solving real-world problems.
-
-⚡ Fun Fact:
-
-> I believe engineering is not just a degree;
-> it is a mindset for solving problems.
-
----
-
-## 🛠️ Tech Arsenal
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,fastapi,react,firebase,cpp,c,javascript,html,css,git,github,vscode,figma,mysql" />
-
-</div>
-
----
-
-## 📈 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=deedeepa909&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=deedeepa909&theme=tokyonight" alt="GitHub Streak"/>
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=deedeepa909&theme=tokyonight&no-frame=true&row=1" alt="Trophies"/>
-
-</div>
-
----
-
-## 📊 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=deedeepa909&theme=tokyo-night" width="100%"/>
-
-</div>
-
----
-
-## 🚀 Current Engineering Journey
-
-### 📚 Learning & Progress Tracking
-
-```txt
-DSA               █████████░ 90%
-Python & FastAPI  ████████░░ 80%
-React Frontend    ███████░░░ 70%
-Git/GitHub        ████████░░ 80%
-System Design     ████░░░░░░ 40%
+## Before publishing
+- Add verified repository/demo links for each project.
+- Add a contact email if you want a direct email button.
+- Confirm course providers and completion status.
+- Add real project screenshots when available.
+- Review project descriptions so they match the features actually implemented.
